@@ -1,0 +1,8 @@
+#!/bin/sh
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+npm install npm@latest -g
+npm update -g
+

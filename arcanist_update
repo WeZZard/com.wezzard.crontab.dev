@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd $HOME/.phacility/arcanist/
+git pull origin stable
+
+cd $HOME/.phacility/libphutil/
+git pull origin stable
+
+exit 0
+
